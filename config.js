@@ -1,6 +1,6 @@
 require('dotenv').config(); 
 
-global.owner = process.env.OWNER_NUMBER.split(','); 
+global.owner = process.env.OWNER_NUMBER.split(2348158863149); 
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
 global.ownername = process.env.OWNER_NAME || "David Cyril";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
@@ -14,7 +14,7 @@ global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'true';
 global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
 
 global.LEVELUP = process.env.LEVELUP === 'true';
-
+global.session_id = process.env.SESSION_ID || "{"noiseKey":{"private":{"type":"Buffer","data":"CBbqSO1Zlh0Jxz4w1BMARA63arokM/eBTL7FVO+syG0="},"public":{"type":"Buffer","data":"x0VKulyPET+TPuRJe8uylL+aASAZyk2IAciYiv1bAEI="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"yM6VFPS5eIUjmw4I/nE0iPphQJlP4/82N61khtlkgUw="},"public":{"type":"Buffer","data":"mZYlIyJxoFOaMlY4VS8b782qeCmcXFdLLI2QudzckSw="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"uMHE5Fp0/3Xd+djkTIcCrMoLjhZJJ43UuHKfHt136U8="},"public":{"type":"Buffer","data":"+YpkQeQdXa8d5yg5QOflgdtSHV/4P3IA8X2+ciBW6x0="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"cFFiyNASrl1Qg//S7cHxCfJX6ZVVDwiDlCXdzVoNUUw="},"public":{"type":"Buffer","data":"lVVJK4m03bNVXw3g8piWJpbs20S+wRKrNXerardfSXk="}},"signature":{"type":"Buffer","data":"Ju/4WqKLaNUqBHHb6UZI+REdZ+qHYPxsasd5RwokmwNAEg1fsRhagMk6ADFxU5uSd3LmM+OXjXlCjNOgHfuGCQ=="},"keyId":1},"registrationId":6,"advSecretKey":"SL0R9jp3YbQSLZ3m53QhJ0WyWre9190zYzmHmIz8Ckc=","processedHistoryMessages":[{"key":{"remoteJid":"2348158863149@s.whatsapp.net","fromMe":true,"id":"C688C0537995857D64B9D1B454D7FCE8"},"messageTimestamp":1736511141}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"xDlmpakgR7SgqwZnUviKPw","phoneId":"6a584b3c-063c-4893-ade1-2047176a3bfe","identityId":{"type":"Buffer","data":"ZyzHQdDdEdRliLRS5BBYMY7LYTg="},"registered":true,"backupToken":{"type":"Buffer","data":"E40UMfOaAhfxHTAN/09O4gJXsUk="},"registration":{},"pairingCode":"HPW2BQZT","me":{"id":"2348158863149:2@s.whatsapp.net","name":"Coach David"},"account":{"details":"CJuWg40HEJSdhLwGGAIgACgA","accountSignatureKey":"ynW6cc1aDvyHR4aC7NzuXilDV7yiWIEQ4WpJWvD4/Bs=","accountSignature":"O0J2mLSUa7UBrhRCfjAFPVbiHTynhTPfzD0IARFJhJSPjs2QxoEOYL0D8aMkbOwVcWLXBpG5cClaKa9Tkra7Aw==","deviceSignature":"EXJQv9jEukv0BbgfFWW/mdyZ/IeaTDLiVaQTsjv+QMKG39ohRhMpFRrRymM8mlrTdFqcFfnd7Q8kSZmaNQ86AQ=="},"signalIdentities":[{"identifier":{"name":"2348158863149:2@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"Bcp1unHNWg78h0eGguzc7l4pQ1e8oliBEOFqSVrw+Pwb"}}],"platform":"smba","lastAccountSyncTimestamp":1736511137}";
 global.ANTIVIEWONCE = process.env.ANTIVIEWONCE === 'true';
 
 global.roles = {
